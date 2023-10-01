@@ -6,6 +6,7 @@ import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 import ProjectPage from './pages/ProjectPage';
 import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 import stlye from "./App.css"
 
 
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: 'project',
         element: <ProjectPage />,
+      },
+      {
+        path: 'contactme',
+        element: <ContactPage />,
       },
       {
         path: 'aboutme',

@@ -163,6 +163,64 @@ header {
   }
 }
 
+#formContainer{
+  max-width: 400px;
+  margin: auto;
+
+
+  
+
+
+}
+
+
+.lableForm {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16pt;
+}
+
+#inputArea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 970px) {
   .pageMain {
     .infoProfileContainer{
