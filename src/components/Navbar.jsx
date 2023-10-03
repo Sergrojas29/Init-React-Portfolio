@@ -9,16 +9,19 @@ function Navbar() {
         <img src={logo} alt={logo} id="logo"></img>
       </div>
       <div id="btnContainer">
-        <Link className="btnHeader" to="/">
-          <a className="btnHeader" href='/'>HOME</a>
+        <Link style={{ textDecoration: 'none' }} className="btnHeader" to="/">
+          <a className="btnHeader" >HOME</a>
         </Link>
-        <Link className="btnHeader" to="/project">
-          <a className="btnHeader" href='/'>PROJECTS</a>
+        <Link style={{ textDecoration: 'none' }} className="btnHeader" to="/project">
+          <a className="btnHeader" >PROJECTS</a>
         </Link>
-        <Link className="btnHeader" to="/aboutme">
-          <a className="btnHeader" href='/' >ABOUT ME</a>
+        <Link style={{ textDecoration: 'none' }} className="btnHeader" to="/aboutme">
+          <a className="btnHeader" >ABOUT ME</a>
         </Link>
-        {/* <a className="btnHeader" href='/contactme'>CONTACT ME</a> */}
+        <Link style={{ textDecoration: 'none' }} className="btnHeader" to="/contactme">
+          <a className="btnHeader" >CONTACT ME</a>
+        </Link>
+
       </div>
     </header>
   );
