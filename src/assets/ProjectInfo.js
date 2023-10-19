@@ -1,5 +1,16 @@
 const allProjects = [
     {
+        title: "Trip Buddy",
+        description: "Trip Buddy is designed for active travelers who want to enhance their travel experiences by easily discovering exciting activities and destinations during their journeys around the country and the world. With Trip Buddy, travelers can make the most out of their trips by accessing a range of useful features.",
+        used: ["REACT", "MONGODB", "APOLLO", "GRAPHQL", "MONGOOSE", "JWT", "MATERIALUI", "BYCRPT", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT"],
+        imageLinks: [],
+        keyImage: "/LOGOS/TRIP-BUDDY.jpg",
+        url: 'https://the-technology-blog-1a45bd1d041b.herokuapp.com/',
+        repoLink: "https://github.com/Sergrojas29/Trip-Buddy",
+        videoLink: "https://www.youtube.com/watch?v=hAAbqcG55Gk",
+        readMeLink: 'https://github.com/Sergrojas29/Trip-Buddy/blob/main/README.md'
+    },
+    {
         title: "Tech-Blog",
         description: 'Solo Project to create a social media page where you can log in securely using encryption. View other users’ posts, create your own or comment on existing posts. Using MySql to create a database that can be live throughout different devices. API for backend using Express and Sessions. And rendering the HTML dynamically using Handlebars to create each page. ',
         used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUELIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PREMIERE",],
