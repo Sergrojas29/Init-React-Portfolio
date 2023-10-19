@@ -2,7 +2,7 @@ const allProjects = [
     {
         title: "Tech-Blog",
         description: 'Solo Project to create a social media page where you can log in securely using encryption. View other users’ posts, create your own or comment on existing posts. Using MySql to create a database that can be live throughout different devices. API for backend using Express and Sessions. And rendering the HTML dynamically using Handlebars to create each page. ',
-        used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUILIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PREMIERE",],
+        used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUELIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PREMIERE",],
         imageLinks: ["CreateComment.png",
             "CreattPosts.png",
             "Homepage.png",
@@ -12,7 +12,7 @@ const allProjects = [
             "create account.png",
         ],
         keyImage: "https://i.ibb.co/9HwGKK5/Tech-Blog.png",
-        url: 'https://the-technology-blog-1a45bd1d041b.herokuapp.com/',
+        url: 'https://immense-spire-99968-3fc73b4aa81c.herokuapp.com/',
         repoLink: "https://github.com/Sergrojas29/Tech-Blog",
         videoLink: "https://www.youtube.com/watch?v=hAAbqcG55Gk",
         readMeLink: 'https://github.com/Sergrojas29/Tech-Blog/blob/main/README.md'
@@ -20,7 +20,7 @@ const allProjects = [
     {
         title: "Purrfect Cafe",
         description:  "A project to create a mock website for a Cat Cafe where you can become sign up to be a patron to the cafe. While logged in you can view the cafe Cats, see their profile. Using MySql to create a database using mySQL2 and Sequelize to write through JavaScript. As well as, Express and Sessions to create a server side user state and Express to create the server and routes. Finally, rendering the HTML dynamically using Handlebars to create each page. ",
-        used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUILIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PHOTOSHOP", "FIGMA"],
+        used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUELIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PHOTOSHOP", "FIGMA"],
         imageLinks: [
             'Cats.png',
             'Homepage.png',
@@ -84,7 +84,7 @@ const allProjects = [
     {
         title: "E-Commerce-Back-End",
         description: "Task is to build the back end for an e-commerce site. Configuring a working Express.js API to use Sequelize to interact with a MySQL database.",
-        used: ["NODES", "MYSQL", "EXPRESS", "JAVASCRIPT", "SEQUILIZE", "NODEMON", "PREMIERE"],
+        used: ["NODES", "MYSQL", "EXPRESS", "JAVASCRIPT", "SEQUELIZE", "NODEMON", "PREMIERE"],
         imageLinks: [
         ],
         keyImage: 'https://i.ibb.co/DQCr6kS/ecommercebackend.png',
