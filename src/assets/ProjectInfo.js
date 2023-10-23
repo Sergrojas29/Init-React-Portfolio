@@ -5,7 +5,7 @@ const allProjects = [
         used: ["REACT", "MONGODB", "APOLLO", "GRAPHQL", "MONGOOSE", "JWT", "MATERIALUI", "BYCRPT", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT"],
         imageLinks: [],
         keyImage: "/LOGOS/TRIP-BUDDY.jpg",
-        url: 'https://the-technology-blog-1a45bd1d041b.herokuapp.com/',
+        url: 'https://immense-spire-99968-3fc73b4aa81c.herokuapp.com/',
         repoLink: "https://github.com/Sergrojas29/Trip-Buddy",
         videoLink: "https://www.youtube.com/watch?v=hAAbqcG55Gk",
         readMeLink: 'https://github.com/Sergrojas29/Trip-Buddy/blob/main/README.md'
@@ -23,14 +23,14 @@ const allProjects = [
             "create account.png",
         ],
         keyImage: "https://i.ibb.co/9HwGKK5/Tech-Blog.png",
-        url: 'https://immense-spire-99968-3fc73b4aa81c.herokuapp.com/',
+        url: 'https://the-technology-blog-1a45bd1d041b.herokuapp.com/',
         repoLink: "https://github.com/Sergrojas29/Tech-Blog",
         videoLink: "https://www.youtube.com/watch?v=hAAbqcG55Gk",
         readMeLink: 'https://github.com/Sergrojas29/Tech-Blog/blob/main/README.md'
     },
     {
         title: "Purrfect Cafe",
-        description:  "A project to create a mock website for a Cat Cafe where you can become sign up to be a patron to the cafe. While logged in you can view the cafe Cats, see their profile. Using MySql to create a database using mySQL2 and Sequelize to write through JavaScript. As well as, Express and Sessions to create a server side user state and Express to create the server and routes. Finally, rendering the HTML dynamically using Handlebars to create each page. ",
+        description: "A project to create a mock website for a Cat Cafe where you can become sign up to be a patron to the cafe. While logged in you can view the cafe Cats, see their profile. Using MySql to create a database using mySQL2 and Sequelize to write through JavaScript. As well as, Express and Sessions to create a server side user state and Express to create the server and routes. Finally, rendering the HTML dynamically using Handlebars to create each page. ",
         used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUELIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PHOTOSHOP", "FIGMA"],
         imageLinks: [
             'Cats.png',
@@ -152,7 +152,7 @@ const allProjects = [
         title: "Password-Generator",
         description: "Created a password generator while also allowing user input to change the generatored password. The slider translate the vaule to the function that determins which password to generate and the lenght. There is also a tooltip on the security level while hovering over it to describe the levels of security.",
         used: ["CSS", 'HTML', "JAVASCRIPT"],
-        imageLinks: ['toottip.png','errormessage.png'],
+        imageLinks: ['toottip.png', 'errormessage.png'],
         keyImage: 'https://i.ibb.co/HPSYDqr/password-Gen.png',
         url: 'https://sergrojas29.github.io/Password-Generator/',
         repoLink: "https://github.com/Sergrojas29/Password-Generator/",
@@ -162,7 +162,7 @@ const allProjects = [
     {
         title: "SQL Employee Tracker",
         description: "A local run command line application to track company departments, roles and employee.",
-        used: ["NODES", "INQUIRE","JAVASCRIPT","MYSQL"],
+        used: ["NODES", "INQUIRE", "JAVASCRIPT", "MYSQL"],
         imageLinks: [],
         keyImage: 'https://i.ibb.co/cbVXNkJ/employeetrackersql.png',
         url: 'https://github.com/Sergrojas29/SQL-Employee-Tracker/tree/main#readme',
@@ -187,4 +187,3 @@ const allProjects = [
 
 export default allProjects;
 
-    
