@@ -17,7 +17,9 @@ export default function ProjectContainer() {
               <img id='profileImg' src={project.keyImage} alt='' />
             </div>
             <div id="infoContain">
-              <h1 id="name" style={{ margin: '5px', fontSize: '50px' }} >{project.title}</h1>
+              <Link to={`/project/${index}`}>
+              <a id="name" style={{ margin: '5px', fontSize: '50px' }} >{project.title}</a>
+              </Link>
               <h2 style={{ margin: '5px' }} id="name">Description:</h2>
               <div id="aboutme" style={{ margin: '5px' }} >{project.description}</div>
               <div id="linkscontain">

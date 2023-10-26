@@ -7,7 +7,9 @@ import HomePage from './pages/HomePage';
 import ProjectPage from './pages/ProjectPage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import stlye from "./App.css"
+import SingleProjectPage from './pages/SingleProjectPage';
+import style from "./App.css"
+import singleProject from "./style/singleProject.css"
 
 
 const router = createBrowserRouter([
@@ -31,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: 'aboutme',
         element: <AboutPage />,
+      },
+      {
+        path: 'project/:projectNumber',
+        element: <SingleProjectPage />,
       },
     ],
   },

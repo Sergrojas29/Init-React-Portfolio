@@ -1,0 +1,160 @@
+:root {
+    --indent: 10px 5px;
+    --primaryAccent: #AE201A;
+}
+
+.projectMain {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    /* border: solid 1pt blue; */
+}
+
+.singleprojectContain {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    width: 1400px;
+    height: 100%;
+    /* border: solid 1pt violet; */
+
+}
+
+#title {
+    font-size: 36pt;
+    padding: 30px;
+}
+
+.containerParent {
+    display: flex;
+    width: 100%;
+    /* padding:  5px 0; */
+    /* gap: 5px; */
+    background-color: lightgray;
+}
+
+.imageCaraselContain {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    overflow-y: scroll;
+    height: 600px;
+    gap: 5px;
+
+    .imgCarasel {
+        width: 100%;
+    }
+
+}
+
+/* .imageCaraselContain::-webkit-scrollbar {
+    width: 10px;
+}
+
+.imageCaraselContain::-webkit-scrollbar-thumb {
+    background: darkgray;
+} */
+
+
+
+.mainImageContain {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 600px;
+    overflow: hidden;
+
+    .projectImg {
+        /* height: 100%; */
+        /* width: 100%; */
+        /* object-fit:cover; */
+    }
+
+}
+
+.markText {
+    color: var(--primaryAccent);
+    font-size: 18pt;
+    align-self: flex-start;
+    margin: var(--indent)
+}
+
+
+.descriptionContain {
+    display: flex;
+    flex-direction: row;
+    margin: var(--indent);
+    gap: 30px;
+    font-size: 14pt;
+    line-height: 28px;
+}
+
+.summery {
+    width: 50%;
+    font-size-adjust: 0.5;
+    text-indent: 55px;
+}
+
+.pointsContain {
+
+    .keyTitle {
+        font-weight: 900;
+        color: var(--primaryAccent);
+    }
+
+    .bullet {
+        margin: 0 50px;
+    }
+}
+
+
+.logoContain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+    height: 100%;
+    width: 100%;
+
+    .logoTech {
+        height: 100px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .singleprojectContain {
+        width: 100%;
+    }
+
+    .containerParent {
+        flex-direction: column;
+    }
+
+    .imageCaraselContain {
+        width: 100%;
+        height: 200px;
+        flex-direction: row;
+
+    }
+
+    .mainImageContain {
+        width: 100%;
+
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .descriptionContain {
+        flex-direction: column-reverse;
+    }
+
+    .summery {
+        width: 100%;
+    }
+}

@@ -21,7 +21,6 @@ function Navbar() {
         <Link style={{ textDecoration: 'none' }} className="btnHeader" to="/contactme">
           <a className="btnHeader" >CONTACT ME</a>
         </Link>
-
       </div>
     </header>
   );

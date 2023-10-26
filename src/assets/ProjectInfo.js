@@ -1,9 +1,34 @@
 const allProjects = [
     {
         title: "Trip Buddy",
-        description: "Trip Buddy is designed for active travelers who want to enhance their travel experiences by easily discovering exciting activities and destinations during their journeys around the country and the world. With Trip Buddy, travelers can make the most out of their trips by accessing a range of useful features.",
+        description: 'Trip Buddy is designed for active travelers who want to enhance their travel experiences by easily discovering exciting activities and destinations during their journeys around the country and the world. With Trip Buddy, travelers can make the most out of their trips by accessing a range of useful features.',
+        longDescription: `
+            Embark on a transformative travel experience with Trip Buddy, a dynamic companion tailored for the modern wanderer. Geared towards active travelers, this innovative app redefines the exploration journey by seamlessly connecting users with exciting activities and destinations worldwide. Trip Buddy ensures a personalized adventure through its secure user profiles, where individuals can log in to curate a customized journey that resonates with their unique preferences. The app's intuitive location search feature opens up a world of possibilities, enabling users to effortlessly discover everything from bustling cityscapes to tranquil countryside retreats. With the "Save to Profile" function, users can build a personalized travel wishlist, preserving their favorite locations and activities for future exploration. Trip Buddy's commitment to efficient trip planning facilitates easy organization, allowing users to delete or add destinations with convenience, ensuring a well-structured and memorable travel itinerary. Navigate the world with confidence, uncovering new places and adventures while keeping travel plans impeccably organized and efficient. Trip Buddy is your key to unlocking a world of extraordinary travel experiences. Download now and let the exploration begin.
+        `,
+        keyPoints: [
+            {
+                title: "User Profiles",
+                key: ['Secure and personalized experience', 'Allows users to log in for a customized journey']
+            },
+            {
+                title: "Location Search",
+                key: ['Enables searching for diverse travel destinations', 'Using geolocation API open-meteo and opentripmap']
+            },
+            {
+                title: "Save to Profile",
+                key: ['Users can bookmark favorite locations or activities', 'Helps keep track of desired places for future visits']
+            },
+            {
+                title: "Trip Planning",
+                key: ['Users can delete locations or activities, ensuring an organized travel itinerary', 'Supports effective trip planning']
+            },
+            {
+                title: "Overall Feature",
+                key: ['Designed for active travelers', 'Enhances travel experiences by discovering exciting activities and destinations', 'Accessible globally for journeys around the country and the world', 'Navigational tool for efficient travel']
+            },
+        ],
         used: ["REACT", "MONGODB", "APOLLO", "GRAPHQL", "MONGOOSE", "JWT", "MATERIALUI", "BYCRPT", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT"],
-        imageLinks: [],
+        imageLinks: [1, 2, 3, 4],
         keyImage: "/LOGOS/TRIP-BUDDY.jpg",
         url: 'https://immense-spire-99968-3fc73b4aa81c.herokuapp.com/',
         repoLink: "https://github.com/Sergrojas29/Trip-Buddy",
@@ -13,15 +38,53 @@ const allProjects = [
     {
         title: "Tech-Blog",
         description: 'Solo Project to create a social media page where you can log in securely using encryption. View other users’ posts, create your own or comment on existing posts. Using MySql to create a database that can be live throughout different devices. API for backend using Express and Sessions. And rendering the HTML dynamically using Handlebars to create each page. ',
-        used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUELIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PREMIERE",],
-        imageLinks: ["CreateComment.png",
-            "CreattPosts.png",
-            "Homepage.png",
-            "Login.png",
-            "New post.png",
-            "Posts.png",
-            "create account.png",
+        longDescription: `
+        This solo project aims to develop a secure social media platform where users can log in with encrypted credentials. The application enables users to explore posts from others, engage in discussions by commenting on existing posts, and share their thoughts through creating personal posts. The project utilizes MySQL for database management, ensuring seamless accessibility across various devices. The backend is powered by Express and Sessions through an API, providing a robust foundation for secure user interactions. The dynamic rendering of HTML pages is achieved using Handlebars, enhancing the user experience. Key features include user account creation for full website access, commenting on posts to participate in discussions, and the ability to craft and share individual posts, fostering a collaborative online community.
+        `,
+        keyPoints: [
+            {
+                title: "Authentication and Security",
+                key: ["Implementation of secure login functionality using encryption techniques.",
+                    "Ensuring user data protection and privacy during authentication processes.",]
+            },
+            {
+                title: "  Post Interaction",
+                key: ["Viewing posts from other users to stay updated on relevant content.",
+                    "Commenting feature for engaging in discussions on existing posts.",]
+
+            },
+            {
+                title: "  Content Creation",
+                key: ["User capability to create and share personalized posts.",
+                    "Sharing thoughts, experiences, and content with the community.",]
+
+            },
+            {
+                title: "  Database Management",
+                key: ["Utilization of MySQL for efficient and reliable database management.",
+                    "Seamless accessibility of data across different devices.",]
+
+            },
+            {
+                title: "  Backend Development",
+                key: ["API development using Express for robust backend functionality.",
+                    "Implementation of Sessions for enhanced user experience and security.",]
+
+            },
+            {
+                title: "  Dynamic HTML Rendering",
+                key: ["Deployment of Handlebars for dynamic rendering of HTML pages.",
+                    "Improving the overall user interface and interaction.",]
+
+            },
+            {
+                title: "  User Account Management",
+                key: ["Account creation process for users to access all website features.",
+                    "Facilitating a free signup mechanism for a seamless onboarding experience.",]
+            },
         ],
+        used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUELIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PREMIERE",],
+        imageLinks: [1, 2, 3, 4, 5],
         keyImage: "https://i.ibb.co/9HwGKK5/Tech-Blog.png",
         url: 'https://the-technology-blog-1a45bd1d041b.herokuapp.com/',
         repoLink: "https://github.com/Sergrojas29/Tech-Blog",
