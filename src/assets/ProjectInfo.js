@@ -130,13 +130,7 @@ const allProjects = [
 
         ],
         used: ["NODES", "MYSQL", "EXPRESS", "SESSIONS", "BYCRPT", "HANDLEBARS", "SEQUELIZE", "NODEMON", "HEROKU", "CSS", "HTML", "JAVASCRIPT", "PHOTOSHOP", "FIGMA"],
-        imageLinks: [
-            'Cats.png',
-            'Homepage.png',
-            'cat profile.png',
-            'login.png',
-            'process.png',
-        ],
+        imageLinks: [1, 2, 3, 4],
         keyImage: 'https://i.ibb.co/LJhrC8K/catcafe.png',
         url: 'https://new-cat-cafe-748a9644a8c0.herokuapp.com/',
         repoLink: "https://github.com/Sergrojas29/Purrfect-Cat-Cafe",
@@ -184,14 +178,7 @@ Easily view the caloric and nutritional details of your meals, saving the inform
 
         ],
         used: ["CSS", "HTML", "JAVASCRIPT", "PHOTOSHOP", "ILLUSTRATOR", "PREMIERE", "FIGMA"],
-        imageLinks: [
-            "Chart Overview.png",
-            "Input Overview.png",
-            "Site Overview.png",
-            "Week Overview.png",
-            "Work Flow.png",
-            "how.png",
-        ],
+        imageLinks: [1, 2, 3, 4],
         keyImage: 'https://i.ibb.co/ZLyWRKP/nutritiontracker.png',
         url: 'https://sergrojas29.github.io/Nutrition-Tracker/',
         repoLink: "https://github.com/Sergrojas29/Nutrition-Tracker",

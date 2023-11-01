@@ -79,18 +79,9 @@ export default function ProfilePage() {
     <div className="projectMain">
       <div className="singleprojectContain">
         <h1 id='title' >{project.title}</h1>
-        <ImageCarasel />
-        {/* <section className="containerParent">
-            <div className="mainImageContain">
-              <img className='projectImg' src={`/projects/Trip Buddy/${image}.png`} alt={project.title} />
-            </div>
-            <div className="imageCaraselContain">
-              <img className='imgCarasel' id='1' key='1' src={`/projects/Trip Buddy/1.png`} alt={project.title} onClick={(e) => imageSelection(e)} />
-              <img className='imgCarasel' id='2' key='2' src={`/projects/Trip Buddy/2.png`} alt={project.title} onClick={(e) => imageSelection(e)} />
-              <img className='imgCarasel' id='3' key='3' src={`/projects/Trip Buddy/3.png`} alt={project.title} onClick={(e) => imageSelection(e)} />
-              <img className='imgCarasel' id='4' key='4' src={`/projects/Trip Buddy/4.png`} alt={project.title} onClick={(e) => imageSelection(e)} />
-            </div>
-          </section> */}
+        {project.imageLinks.length != 0 && <ImageCarasel/> }
+        {/* <ImageCarasel /> */}
+
         <div className="markText"> DESCRIPTION:</div>
 
         <Description />
