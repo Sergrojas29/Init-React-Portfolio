@@ -91,9 +91,12 @@
     gap: 30px;
     font-size: 14pt;
     line-height: 28px;
+    
 }
 
 .summery {
+    background-color: white;
+    border-radius: 15px;
     width: 50%;
     font-size-adjust: 0.5;
     text-indent: 55px;

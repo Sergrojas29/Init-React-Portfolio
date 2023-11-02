@@ -13,12 +13,12 @@ export default function ProjectContainer() {
       {projectData.map((project, index) => {
         return (
           <div className="projectContain" key={index}>
-            <div id="profileImgContain">
-              <img id='profileImg' src={project.keyImage} alt='' />
+            <div id="ImgContain">
+              <img id='ProjectImg' src={project.keyImage} alt='' />
             </div>
-            <div id="infoContain">
+            <div id="projectInfoContain">
               <Link to={`/project/${index}`}>
-              <a id="name" style={{ margin: '5px', fontSize: '50px' }} >{project.title}</a>
+              <a id="name" className="projectName" style={{ margin: '5px', fontSize: '50px' }} >{project.title}</a>
               </Link>
               <h2 style={{ margin: '5px' }} id="name">Description:</h2>
               <div id="aboutme" style={{ margin: '5px' }} >{project.description}</div>

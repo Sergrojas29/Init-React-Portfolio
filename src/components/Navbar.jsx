@@ -1,9 +1,10 @@
 import logo from '../assets/logoSra.svg'
 import { Link } from 'react-router-dom';
+import MobileNav from './MobileNav';
 
 function Navbar() {
   return (
-
+<>
     <header>
       <div id="logoContainer">
         <img src={logo} alt={logo} id="logo"></img>
@@ -23,6 +24,8 @@ function Navbar() {
         </Link>
       </div>
     </header>
+    <MobileNav/>
+</>
   );
 }
 

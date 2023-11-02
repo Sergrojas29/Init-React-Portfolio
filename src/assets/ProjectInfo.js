@@ -233,14 +233,7 @@ I take pride in the design and construction phases of Weather Dash, particularly
 
         ],
         used: ["CSS", "HTML", "JAVASCRIPT", "PHOTOSHOP", "ILLUSTRATOR", "PREMIERE", "FIGMA"],
-        imageLinks: [
-            "Chart Overview.png",
-            "Input Overview.png",
-            "Site Overview.png",
-            "Week Overview.png",
-            "Work Flow.png",
-            "how.png",
-        ],
+        imageLinks: [1,2,3,4],
         keyImage: 'https://i.ibb.co/3hybS5V/weatherdash.png',
         url: 'https://sergrojas29.github.io/Weather-App/',
         repoLink: "https://github.com/Sergrojas29/Weather-App/",
@@ -291,7 +284,7 @@ I take pride in the design and construction phases of Weather Dash, particularly
 
         ],
         used: ["CSS", 'HTML', "JAVASCRIPT"],
-        imageLinks: [],
+        imageLinks: [1,2,3,4,5],
         keyImage: "https://i.ibb.co/6ZRk4n2/codequiz.png",
         url: 'https://sergrojas29.github.io/Code-Quiz/',
         repoLink: "https://github.com/Sergrojas29/Code-Quiz",
